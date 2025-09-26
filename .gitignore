@@ -1,0 +1,17 @@
+# Exercism
+.exercism/
+
+# Build artifacts
+bin/
+obj/
+
+# IDE/editor settings
+*.user
+*.suo
+*.ncb
+*.sln.docstates
+.vs/
+.vscode/
+
+# macOS files
+.DS_Store
