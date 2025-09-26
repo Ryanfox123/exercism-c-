@@ -13,7 +13,7 @@ static class Appointment
     public static bool IsAfternoonAppointment(DateTime appointmentDate)
     {
         int hour = appointmentDate.Hour;
-    return hour >= 12 && hour < 18;
+        return hour >= 12 && hour < 18;
     }
 
     public static string Description(DateTime appointmentDate)
