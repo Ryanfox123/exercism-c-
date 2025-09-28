@@ -10,14 +10,17 @@ public static class Dominoes
             {
                 counts[left]++;
             }
-            else if (counts.ContainsKey(right))
+            else
+            {
+                counts[left] = 1;
+            }
+            if (counts.ContainsKey(right))
             {
                 counts[right]++;
             }
             else
             {
                 counts[right] = 1;
-                counts[left] = 1;
             }
         }
         foreach (var item in counts)
